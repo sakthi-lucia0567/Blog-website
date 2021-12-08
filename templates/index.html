@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+
+{% block head %}
+<title>Home</title>
+{% endblock %}
+
+{% block body %}
+<br>
+<h1>Home Page</h1>
+<br>
+<main role="main">
+    <div class="jumbotron">
+        <div class="col-sm-8 mx-auto">
+            <h1>Welcome</h1>
+            <p>Welcome to the Flask-Blog! Here we'll be talking about Flask Flask-framework.Flask-Basics, Flask-updates,other Flask stuff, new tech and pretty much Flask related.</p>
+            <!--- <p>Go visit us at our website <a href="https://www.cleverprogrammer.com">c.com</a> to check out more cool stuff beyond just blogs.</p>
+            <p> --->
+                <a class="btn btn-primary" href="/posts" role="button">Go To Posts &raquo;</a>
+            </p>
+        </div>
+    </div>
+</main>
+{% endblock %}
